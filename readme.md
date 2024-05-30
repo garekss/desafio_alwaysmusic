@@ -20,6 +20,9 @@ Alumno Registrado:  { rut: '12345678-9', nombre: 'Juan Perez', curso: 'G70', niv
 
 y asì mostrara todos los agregados..
 
+![image](https://github.com/garekss/desafio_alwaysmusic/assets/159491346/4800b558-9046-40c8-94aa-f86de3c597a2)
+
+
 2-Obtener el registro de un estudiante:
 
 node server.js rut 12345678-4
@@ -29,11 +32,15 @@ Traerá  como resultado: --Alumno consultado: { rut: '12345678-9', nombre: 'Juan
 
 node server.js consulta
 Traerá  como resultado: Alumnos registrados: [ { rut: '12345678-9', nombre: 'Juan Perez', curso: 'G70', nivel: 7 } ]
+![image](https://github.com/garekss/desafio_alwaysmusic/assets/159491346/13ce7066-30c3-46b0-a17e-cd04fe194510)
 
 4-Actualizar el registro de un estudiante de la base de datos:
 
 node server.js actualizar 12345678-9 "Juan Perez" g70 8
-Traerá  como resultado: --Alumno Actualizado: { rut: '12345678-9', nombre: 'Juan Perez', curso: 'g70', nivel: 8 }
+Traerá  como resultado: --Alumno Actualizado: { rut: '12345678-9', nombre: 'Juan Perez', curso: 'g70', nivel: 8 }s
+
+![image](https://github.com/garekss/desafio_alwaysmusic/assets/159491346/3ff86fd6-67f3-4eed-8a0e-558ceb60101b)
+
 
 5-Eliminar el registro de un estudiante de la base de datos:
 
@@ -48,3 +55,5 @@ Alumno Eliminado:  {
   curso: 'g70',
   nivel: 18
 }
+
+![image](https://github.com/garekss/desafio_alwaysmusic/assets/159491346/f5e53af9-d097-45e1-bb47-62524c87093a)
